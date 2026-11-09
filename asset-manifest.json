@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dujsoevanurajida-jpg/practic-weather.git/static/css/main.41ed1b66.css",
+    "main.js": "/dujsoevanurajida-jpg/practic-weather.git/static/js/main.e9b212d3.js",
+    "static/js/453.fb8c36fc.chunk.js": "/dujsoevanurajida-jpg/practic-weather.git/static/js/453.fb8c36fc.chunk.js",
+    "index.html": "/dujsoevanurajida-jpg/practic-weather.git/index.html",
+    "main.41ed1b66.css.map": "/dujsoevanurajida-jpg/practic-weather.git/static/css/main.41ed1b66.css.map",
+    "main.e9b212d3.js.map": "/dujsoevanurajida-jpg/practic-weather.git/static/js/main.e9b212d3.js.map",
+    "453.fb8c36fc.chunk.js.map": "/dujsoevanurajida-jpg/practic-weather.git/static/js/453.fb8c36fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41ed1b66.css",
+    "static/js/main.e9b212d3.js"
+  ]
+}
