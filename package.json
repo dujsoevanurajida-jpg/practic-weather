@@ -1,7 +1,7 @@
 {
   "name": "practic",
   "version": "0.1.0",
-  "homepage": "https://github.com/dujsoevanurajida-jpg/practic-weather.git",
+  "homepage": "https://github.com/dujsoevanurajida-jpg/practic-weather",
   "private": true,
   "dependencies": {
     "@supabase/supabase-js": "^2.119.0",
