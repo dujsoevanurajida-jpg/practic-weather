@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dujsoevanurajida-jpg/practic-weather/static/css/main.41ed1b66.css",
-    "main.js": "/dujsoevanurajida-jpg/practic-weather/static/js/main.653bcf3d.js",
-    "static/js/453.fb8c36fc.chunk.js": "/dujsoevanurajida-jpg/practic-weather/static/js/453.fb8c36fc.chunk.js",
-    "index.html": "/dujsoevanurajida-jpg/practic-weather/index.html",
-    "main.41ed1b66.css.map": "/dujsoevanurajida-jpg/practic-weather/static/css/main.41ed1b66.css.map",
-    "main.653bcf3d.js.map": "/dujsoevanurajida-jpg/practic-weather/static/js/main.653bcf3d.js.map",
-    "453.fb8c36fc.chunk.js.map": "/dujsoevanurajida-jpg/practic-weather/static/js/453.fb8c36fc.chunk.js.map"
+    "main.css": "/practic-weather/static/css/main.41ed1b66.css",
+    "main.js": "/practic-weather/static/js/main.7e09f29a.js",
+    "static/js/453.fb8c36fc.chunk.js": "/practic-weather/static/js/453.fb8c36fc.chunk.js",
+    "index.html": "/practic-weather/index.html",
+    "main.41ed1b66.css.map": "/practic-weather/static/css/main.41ed1b66.css.map",
+    "main.7e09f29a.js.map": "/practic-weather/static/js/main.7e09f29a.js.map",
+    "453.fb8c36fc.chunk.js.map": "/practic-weather/static/js/453.fb8c36fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ed1b66.css",
-    "static/js/main.653bcf3d.js"
+    "static/js/main.7e09f29a.js"
   ]
 }
