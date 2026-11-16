@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import FactBanner from '../components/FactBanner';
 import { useNavigate, useLocation } from 'react-router-dom';
 import CitySearch from '../components/CitySearch';
 import WeatherCard from '../components/WeatherCard';
@@ -7,7 +8,8 @@ import WeatherAnimation from '../components/WeatherAnimation';
 import { getWeather } from '../services/weatherAPI';
 import { getDailyAdvice } from '../utils/recommender';
 
-// ✅ Выносим debounce за пределы компонента (утилитарная функция)
+
+//  Выносим debounce за пределы компонента (утилитарная функция)
 const debounce = (func, delay) => {
   let timeoutId;
   return (...args) => {
@@ -98,10 +100,10 @@ function HomePage() {
       </p>
   
       <CitySearch onSearch={debouncedSearch} />
-  
+      <FactBanner />
       {loading && <p className="loading">Загрузка данных о погоде...</p>}
       {error && <p className="error-text">{error}</p>}
-  
+    
       {weather && (
         <>
           <WeatherAnimation weatherMain={weather.weatherMain} />
