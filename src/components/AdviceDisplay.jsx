@@ -7,7 +7,7 @@ function AdviceDisplay({ advice }) {
     <div className="advice-section">
       {/* Советы по активности */}
       <div className="advice-card activity-card">
-        <h3>🏃 Активность</h3>
+        <h3> Активность</h3>
         <ul className="advice-list">
           {advice.activity.map((tip, index) => (
             <li key={index}>{tip}</li>
@@ -18,7 +18,7 @@ function AdviceDisplay({ advice }) {
       {/* Что взять с собой (только если есть предметы) */}
       {advice.items.length > 0 && (
         <div className="advice-card items-card">
-          <h3>🎒 Взять с собой</h3>
+          <h3> Взять с собой</h3>
           <div className="items-grid">
             {advice.items.map((item, index) => (
               <div key={index} className="item-badge">
@@ -33,7 +33,7 @@ function AdviceDisplay({ advice }) {
       {/* Предупреждения */}
       {advice.warnings.length > 0 && (
         <div className="advice-card warnings-card">
-          <h3>⚠️ Предупреждения</h3>
+          <h3> Предупреждения</h3>
           <div className="warnings-list">
             {advice.warnings.map((warning, index) => (
               <div key={index} className="warning-item">
